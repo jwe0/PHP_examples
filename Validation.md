@@ -1,7 +1,7 @@
-``
-`Input			   Issue						PHP Check           				      Error message
+```
+Input		      	   Issue						            PHP Check           				               Error message
 
-Name ("")          Empty values                 is_empty              					   Name cannot be empty
+Name ("")          Empty values                 is_empty              					           Name cannot be empty
 
 Age (seventeen)    Not an int                   is_numeric                                 Please enter a number for age
 
