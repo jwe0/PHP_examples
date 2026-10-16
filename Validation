@@ -1,0 +1,11 @@
+``
+`Input			   Issue						PHP Check           				      Error message
+
+Name ("")          Empty values                 is_empty              					   Name cannot be empty
+
+Age (seventeen)    Not an int                   is_numeric                                 Please enter a number for age
+
+Email (student@)   Missing .com                 filter_var(email, FILTER_VALIDATE_EMAIL)   Please enter a valid email
+
+Password (abc)     Too short of a password      strlen(pw) >= 10                           Your password is too short
+```
