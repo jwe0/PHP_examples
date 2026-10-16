@@ -18,13 +18,13 @@ if (empty($name) OR empty($age) OR empty($email) OR empty($password)) {
 } if (strlen($password) < 8) {
     $errors[] =  "Invalid password length";
 }
+
 if (empty($errors)) {
     echo "Correct info given";
 } else {
+    echo "Errors active: ".count($errors)."<br>";
     foreach  ($errors as $error) {
         echo $error."<br>"; 
     }
 }
-
-
 ?>
